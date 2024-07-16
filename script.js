@@ -39,6 +39,24 @@ const factsList = document.querySelector(".facts-list");
 
 factsList.innerHTML = "";
 
+loadFacts();
+
+async function loadFacts() {
+  const res = await fetch(
+    "https://ippgbvnpjrgtsqqylbcd.supabase.co/rest/v1/facts",
+    {
+      headers: {
+        apikey:
+          "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwcGdidm5wanJndHNxcXlsYmNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTY2MzcwNjIsImV4cCI6MjAzMjIxMzA2Mn0.bCZpmHtuKJvC_SYAsZNAlPXi1XhrPCwjGuaHtEqPaFw",
+        authorization:
+          "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlwcGdidm5wanJndHNxcXlsYmNkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTY2MzcwNjIsImV4cCI6MjAzMjIxMzA2Mn0.bCZpmHtuKJvC_SYAsZNAlPXi1XhrPCwjGuaHtEqPaFw",
+      },
+    }
+  );
+  const data = await res.json();
+  createFactsList(data);
+}
+
 function createFactsList(dataArray) {
   const htmlArr = dataArray.map(
     (fact) => `<li class="fact">

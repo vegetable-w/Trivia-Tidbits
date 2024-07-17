@@ -86,6 +86,3 @@ btn.addEventListener("click", function () {
     btn.textContent = "Share a fact";
   }
 });
-
-console.log([7, 64, 6, -23, 11].filter((el) => el > 10));
-console.log([7, 64, 6, -23, 11].find((el) => el > 10));

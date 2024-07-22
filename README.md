@@ -8,7 +8,6 @@ Welcome to Trivia Tidbits, an interactive web application designed to share and 
 - **Fact Categories**: Easily filter facts by categories such as technology, science, finance, society, entertainment, health, history, and news.
 - **Voting System**: Engage with the community by voting facts as Interesting, Mindblowing, or False.
 - **Dynamic Search**: Find facts quickly with a dynamic search feature that filters facts in real-time.
-- 
 ## Technologies Used
 
 - **React**: Utilized for building the user interface with functional components and hooks.

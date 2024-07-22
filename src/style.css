@@ -23,6 +23,12 @@ body {
   margin-top: 24px;
 }
 
+.disputed {
+  color: #ef4444;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
 #root {
   max-width: 1500px;
   margin: 0 auto;
@@ -126,6 +132,11 @@ h1 {
 .vote-button button:hover {
   background-color: #292524;
 }
+
+.vote-button button:disabled {
+  background-color: #44403c;
+}
+
 ul {
   list-style: none;
 }

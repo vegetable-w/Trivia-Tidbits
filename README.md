@@ -1,6 +1,6 @@
 # Trivia Tidbits
 
-Welcome to Trivia Tidbits, an interactive web application designed to share and explore fascinating facts across various categories. Whether you're interested in science, technology, history, or entertainment, Trivia Tidbits offers a platform for users to post new trivia, vote on their favorites, and learn something new every day.
+Welcome to Trivia Tidbits, an interactive web application designed to share and explore fascinating facts across various categories. Whether you're interested in science, technology, history, or entertainment, Trivia Tidbits offers a platform for users to post new trivia, vote on which ones they find interesting, and learn something new every day.
 
 ## Features
 

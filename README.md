@@ -1,22 +1,23 @@
-# Trivia Tidbits
+# トリビア・ティドビッツ (Trivia Tidbits)
 
-Welcome to Trivia Tidbits, an interactive web application designed to share and explore fascinating facts across various categories. Whether you're interested in science, technology, history, or entertainment, Trivia Tidbits offers a platform for users to post new trivia, vote on which ones they find interesting, and learn something new every day.
+Trivia Tidbitsは、さまざまなカテゴリーの興味深いトリビアを共有し、探索するためのインタラクティブなWebアプリです。科学、技術、歴史、エンターテイメントなど、さまざまな分野に興味がある方に向けて、ユーザーが新しいトリビアを投稿したり、投票したり、毎日新しい知識を得ることができるプラットフォームを提供します。
 
-## Features
+## 特徴
 
-- **Post Facts**: Users can share interesting facts with an option to categorize and source them.
-- **Fact Categories**: Easily filter facts by categories such as technology, science, finance, society, entertainment, health, history, and news.
-- **Voting System**: Engage with the community by voting facts as Interesting, Mindblowing, or False.
-- **Dynamic Search**: Find facts quickly with a dynamic search feature that filters facts in real-time.
+- **トリビアの投稿**：ユーザーは興味深い事実を共有でき、カテゴリーや情報源を指定するオプションも利用可能。
+- **カテゴリー別トリビア**：技術、科学、金融、社会、エンターテイメント、健康、歴史、ニュースなどのカテゴリーでフィルタリング可能。
+- **投票システム**：トリビアに対して「興味深い」「驚愕」「誤り」といった投票ができ、コミュニティと交流可能。
+- **ダイナミック検索**：リアルタイムでトリビアをフィルタリングし、素早く検索できる機能を搭載。
 
-## Technologies Used
+## 使用技術
 
-- **React**: Utilized for building the user interface with functional components and hooks.
-- **Supabase**: Backend service used for database management and API services.
-- **Netlify**: Deployment and hosting platform.
-- **CSS**: For styling and responsive design.
+- **React**：コンポーネントとフックを活用してユーザーインターフェースを構築。
+- **Supabase**：データベース管理およびAPIサービスのバックエンドとして使用。
+- **Netlify**：デプロイおよびホスティングプラットフォーム。
+- **CSS**：スタイリングとレスポンシブデザインの実装。
 
-The application should now be running at [https://trivia-tidbits.netlify.app/](https://trivia-tidbits.netlify.app/).
+URL：
+[https://trivia-tidbits.netlify.app/](https://trivia-tidbits.netlify.app/)
 
 
 
